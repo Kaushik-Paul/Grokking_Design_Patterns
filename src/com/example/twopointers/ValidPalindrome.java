@@ -14,6 +14,7 @@ public class ValidPalindrome {
         }
     }
 
+    // O(n) time and O(1) space
     private static boolean isPalindrome(String string) {
         int startIdx = 0;
         int endIdx = string.length() - 1;
