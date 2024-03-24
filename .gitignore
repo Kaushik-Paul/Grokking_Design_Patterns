@@ -227,4 +227,13 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### Intellij+iml Patch ###
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+modules.xml
+.idea/misc.xml
+*.ipr
+
+# End of https://www.toptal.com/developers/gitignore/api/intellij+iml
+
 # End of https://www.toptal.com/developers/gitignore/api/git,intellij+all,java,maven,macos,windows,visualstudiocode
