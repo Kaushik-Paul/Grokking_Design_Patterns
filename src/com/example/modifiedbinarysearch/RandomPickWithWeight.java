@@ -89,7 +89,4 @@ public class RandomPickWithWeight {
         return total;
     }
 
-
-
-
 }
