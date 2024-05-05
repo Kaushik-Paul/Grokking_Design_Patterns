@@ -38,7 +38,7 @@ public class RotateImage {
 
         for (int i = 0; i < inputs.length; i++) {
             System.out.println((i + 1) + ".\tMatrix:");
-            Arrays.stream(rotateImage(inputs[i])).map(Arrays::toString).forEach(System.out::println);
+            Arrays.stream(inputs[i]).map(Arrays::toString).forEach(System.out::println);
 
             System.out.println("\n\tRotated matrix:");
             Arrays.stream(rotateImage(inputs[i])).map(Arrays::toString).forEach(System.out::println);
