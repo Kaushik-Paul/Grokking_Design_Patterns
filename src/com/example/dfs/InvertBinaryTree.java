@@ -2,8 +2,9 @@ package com.example.dfs;
 
 public class InvertBinaryTree extends BinarySearchTree {
 
-    private void invertTree(Node root) {
+    private Node invertTree(Node root) {
         root = invertTreeHelper(root);
+        return root;
     }
 
     // O(n) time and O(1) space
