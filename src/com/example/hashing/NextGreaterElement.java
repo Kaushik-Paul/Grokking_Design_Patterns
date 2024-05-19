@@ -1,4 +1,4 @@
-package com.example.hashingandtracking;
+package com.example.hashing;
 
 import java.util.Arrays;
 import java.util.HashMap;
