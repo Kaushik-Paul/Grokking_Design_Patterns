@@ -8,13 +8,13 @@ public class MissingNumber {
         int numLength = inputNumber.length;
 
         while (index <= numLength - 1) {
-            int value = inputNumber[index];
+            int correctIndex = inputNumber[index];
 
-            if (value < numLength && value != index) {
+            if (correctIndex < numLength && correctIndex != index) {
                 int temp = inputNumber[index];
-                inputNumber[index] = inputNumber[value];
-                inputNumber[value] = temp;
-            } else if (value >= numLength) {
+                inputNumber[index] = inputNumber[correctIndex];
+                inputNumber[correctIndex] = temp;
+            } else if (correctIndex >= numLength) {
                 index++;
             } else {
                 index++;
