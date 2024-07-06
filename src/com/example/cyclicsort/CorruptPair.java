@@ -11,12 +11,12 @@ public class CorruptPair {
         int missing = 0;
 
         while (index < nums.length) {
-            int value = nums[index] - 1;
+            int correctIndex = nums[index] - 1;
 
-            if (nums[index] != nums[value]) {
+            if (nums[index] != nums[correctIndex]) {
                 int temp = nums[index];
-                nums[index] = nums[value];
-                nums[value] = temp;
+                nums[index] = nums[correctIndex];
+                nums[correctIndex] = temp;
             } else {
                 index++;
             }
